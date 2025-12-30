@@ -4,7 +4,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 import os
 from dotenv import load_dotenv # Thêm dòng này
 
-# 1. CẤU HÌNH GEMINI AI........máy cơ quan
+# 1. CẤU HÌNH GEMINI AI........máy cơ quan và đây là máy nhà
 # 1. Nạp key từ file .env lên
 load_dotenv()
 
