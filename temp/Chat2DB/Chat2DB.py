@@ -2,6 +2,7 @@ import psycopg2
 import pandas as pd
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
 from dotenv import load_dotenv # Thêm dòng này
 
@@ -12,6 +13,10 @@ load_dotenv()
 # 2. Lấy key ra sử dụng (Thay vì điền trực tiếp key vào đây)
 # Nếu không tìm thấy key, nó sẽ trả về None
 api_key = os.getenv("GEMINI_API_KEY")
+=======
+
+# 1. CẤU HÌNH GEMINI AI
+>>>>>>> b6f54e5ac395af0b18665c6773bcc26024f49b24
 =======
 
 # 1. CẤU HÌNH GEMINI AI

@@ -18,7 +18,11 @@ import tempfile
 # 1. Cấu hình Google Gemini API
 # Lưu ý: Đây là Key Google Gemini của bạn (đã thay thế cho Groq)
 <<<<<<< HEAD
+<<<<<<< HEAD
 GOOGLE_API_KEY = "" # <--- BẠN HÃY DÁN LẠI KEY GOOGLE CỦA BẠN VÀO ĐÂY (Key bắt đầu bằng AIzaSy...)
+=======
+GOOGLE_API_KEY = "AIzaSyDiXw9ZierqpR3rxFU1aHgxeuLZFVrAkco" # <--- BẠN HÃY DÁN LẠI KEY GOOGLE CỦA BẠN VÀO ĐÂY (Key bắt đầu bằng AIzaSy...)
+>>>>>>> b6f54e5ac395af0b18665c6773bcc26024f49b24
 =======
 GOOGLE_API_KEY = "AIzaSyDiXw9ZierqpR3rxFU1aHgxeuLZFVrAkco" # <--- BẠN HÃY DÁN LẠI KEY GOOGLE CỦA BẠN VÀO ĐÂY (Key bắt đầu bằng AIzaSy...)
 >>>>>>> b6f54e5ac395af0b18665c6773bcc26024f49b24
