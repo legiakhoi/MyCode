@@ -25,13 +25,13 @@ def send_startup_notification():
 def handle_shutdown(message):
     # Bảo mật: Chỉ thực hiện nếu người gửi là chính bạn
     if str(message.chat.id) == str(MY_CHAT_ID):
-        bot.reply_to(message, "🔴 XÁC NHẬN: Đang chuẩn bị tắt máy trong 10 giây...")
+        bot.reply_to(message, "🔴 XÁC NHẬN: Đang chuẩn bị tắt máy trong 2 phút...")
         
         # Gửi thông báo chuẩn bị tắt máy (theo yêu cầu của bạn)
         bot.send_message(MY_CHAT_ID, "⚠️ Máy tính đang thực hiện quy trình tắt nguồn...")
         
         # Thực hiện lệnh tắt máy của Windows (hẹn giờ 10s để kịp gửi tin nhắn)
-        os.system("shutdown /s /t 10") 
+        os.system("shutdown /s /t 120") 
     else:
         bot.reply_to(message, "⛔ Bạn không có quyền tắt máy tính này!")
 
@@ -50,6 +50,6 @@ if __name__ == "__main__":
     # Bắt đầu lắng nghe tin nhắn liên tục
     print("Bot đang chạy...")
     try:
-        bot.infinity_polling(timeout=300, long_polling_timeout=5)
+        bot.infinity_polling(timeout=10, long_polling_timeout=5)
     except Exception as e:
         print(f"Lỗi kết nối: {e}")

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\khoile.vpi\SynologyDrive\PythonScripts\project 1\BatTatMayTinh.py", line 51, in <module>
-    print("Bot \u0111ang ch\u1ea1y...")
-    ~~~~~^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeEncodeError: 'charmap' codec can't encode character '\u0111' in position 4: character maps to <undefined>
