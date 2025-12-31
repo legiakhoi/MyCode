@@ -4,7 +4,7 @@ import time
 import threading
 from dotenv import load_dotenv
 
-# --- CẤU HÌNH ---
+# --- CẤU HÌNH --- máy 2
 load_dotenv()  # Load biến môi trường từ file .env
 API_TOKEN = os.getenv('API_TOKEN')  # Dán Token vào đây
 MY_CHAT_ID = os.getenv('MY_CHAT_ID')   # Dán ID số của bạn vào đây (Dạng string hoặc số đều được)
