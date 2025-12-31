@@ -50,6 +50,6 @@ if __name__ == "__main__":
     # Bắt đầu lắng nghe tin nhắn liên tục
     print("Bot đang chạy...")
     try:
-        bot.infinity_polling(timeout=60, long_polling_timeout=5)
+        bot.infinity_polling(timeout=300, long_polling_timeout=5)
     except Exception as e:
         print(f"Lỗi kết nối: {e}")
