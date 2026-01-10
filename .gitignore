@@ -1,1 +1,18 @@
+# Bỏ qua thư mục môi trường ảo (Cực nặng)
+.venv/
+venv/
+env/
+
+# Bỏ qua file biên dịch của Python (Rác)
+__pycache__/
+*.pyc
+
+# Bỏ qua file cấu hình biến môi trường (Chứa mật khẩu)
 .env
+
+# Bỏ qua thư mục dữ liệu Docker cục bộ (nếu có)
+.devcontainer/tmp/
+
+# Bỏ qua file hệ thống của Windows/Mac
+.DS_Store
+Thumbs.db
