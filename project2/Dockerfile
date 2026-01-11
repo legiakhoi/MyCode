@@ -8,8 +8,8 @@ WORKDIR /app
 
 # 3. QUAN TRỌNG: Chỉ copy file requirements trước để tận dụng cache
 # (Chỉ chạy lệnh này nếu file requirements.txt thực sự tồn tại)
-# COPY requirements.txt .
-# RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 4. Cập nhật hệ điều hành cơ bản (Tùy chọn, giúp tránh lỗi thiếu thư viện git, curl...)
 RUN apt-get update && apt-get install -y git curl
