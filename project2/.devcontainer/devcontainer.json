@@ -1,0 +1,7 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+    
+    // Dòng này giúp tự động chạy lệnh pip install khi container khởi tạo
+    "postCreateCommand": "pip3 install --user -r requirements.txt"
+}
